@@ -29,5 +29,10 @@ class HomePage {
     const ele = $$(".fa fa-car")[index];
     return await ele.click;
   }
+
+  async getHeaderText() {
+    const ele = $("//h2[contains(text(),'Find your branch')]");
+    return await ele.getText();
+  }
 }
 export default new HomePage();

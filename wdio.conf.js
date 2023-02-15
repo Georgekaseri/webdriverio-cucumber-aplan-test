@@ -140,7 +140,7 @@ export const config = {
   cucumberOpts: {
     ignoreUndefinedDefinitions: true,
     // <string[]> (file/dir) require files before executing features
-    require: ["./features/step-definitions/steps.js"],
+    require: ["./features/step-definitions/**.js"],
     // <boolean> show full backtrace for errors
     backtrace: false,
     // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
