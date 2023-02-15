@@ -1,22 +1,16 @@
-const { Given, When, Then } = require('@wdio/cucumber-framework');
+import { Given, When, Then } from "@wdio/cucumber-framework";
 
-const LoginPage = require('../pageobjects/login.page');
-const SecurePage = require('../pageobjects/secure.page');
-
-const pages = {
-    login: LoginPage
-}
-
-Given(/^I am on the (\w+) page$/, async (page) => {
-    await pages[page].open()
+Given("I am on the login page", async () => {
+  await browser.url("https://www.aplan.co.uk");
+  await (await $("#onetrust-accept-btn-handler")).click();
 });
 
-When(/^I login with (\w+) and (.+)$/, async (username, password) => {
-    await LoginPage.login(username, password)
+When("I land to the page", async () => {
+  browser.pause(1000);
+  await expect($(".logo-wrap")).toBeExisting();
 });
 
-Then(/^I should see a flash message saying (.*)$/, async (message) => {
-    await expect(SecurePage.flashAlert).toBeExisting();
-    await expect(SecurePage.flashAlert).toHaveTextContaining(message);
+Then("I should see Personal link", async () => {
+  await expect($("//a[text()='Personal']")).toBeExisting();
+  await expect($("//a[text()='Personal']")).toHaveTextContaining("Personal");
 });
-

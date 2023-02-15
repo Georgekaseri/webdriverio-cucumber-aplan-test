@@ -1,17 +1,21 @@
+//const Page = require('./page');
 
-
-const Page = require('./page');
+import { $ } from "webdriverio/build/commands/browser";
 
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class SecurePage extends Page {
-    /**
-     * define selectors using getter methods
-     */
-    get flashAlert () {
-        return $('#flash');
-    }
+class SecurePage {
+  /**
+   * define selectors using getter methods
+   */
+  get getPersonalLink() {
+    return $("//a[text()='Personal']");
+  }
+
+  get getAplanLogo() {
+    return $(".logo-wrap");
+  }
 }
 
-module.exports = new SecurePage();
+export default new SecurePage();
