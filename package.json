@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "wdio run ./wdio.conf.js",
-    "generate:report": "allure generate allure-results/ && allure open"
+    "generate:report": "allure generate allure-results/ && allure open",
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "dependencies": {
     "chai": "^4.3.7"

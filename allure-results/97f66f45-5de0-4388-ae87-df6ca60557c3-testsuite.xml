@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676477797027' stop='1676477808047'>
+    <name>The Aplan Website: As a user, I can log into the secure area</name>
+    <title>The Aplan Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1676477797028' status='passed' stop='1676477797028'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477797028' status='passed' stop='1676477797905'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676477797029' status='passed' stop='1676477797905'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='380f7d56-715b-4c7c-bdfd-76dba49262ad-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477797905' status='passed' stop='1676477797937'>
+            <name>When I land to the page</name>
+            <title>When I land to the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676477797907' status='passed' stop='1676477797919'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='10bd3a55-d274-4eb8-af1a-33fb058dbb8c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='4794aabd-d9cd-4fa7-af22-7d19b4ea8bce-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676477797923' status='passed' stop='1676477797934'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5c85d05d-a6b5-4e41-8da7-574e6c5af8b5-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='93e2063a-1b4a-4fed-a22c-6da8f4fd4dc4-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477797937' status='failed' stop='1676477808044'>
+            <name>Then I should see Personal link</name>
+            <title>Then I should see Personal link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676477797938' status='passed' stop='1676477797946'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aabb53c4-4ddf-4298-8799-3b72ca518143-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='157c6c71-c387-4672-8dd6-e72cef13a92a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676477797948' status='passed' stop='1676477797957'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2e7c1121-45e6-43ff-b81a-47a8ffb379ba-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='e1d42b5b-4a9e-4596-8ad1-e01a1a84b72a-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676477797958' status='passed' stop='1676477797973'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cb44bf74-ce81-4997-97c8-73282f202f52-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='ff48364a-bb31-496c-9b3f-90b52de271af-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676477797975' status='passed' stop='1676477797993'>
+                    <name>GET /session/:sessionId/element/63b0d44f-47a5-439b-8b68-350d458c5e7d/text</name>
+                    <title>GET /session/:sessionId/element/63b0d44f-47a5-439b-8b68-350d458c5e7d/text</title>
+                    <attachments>
+                        <attachment title='Response' source='81994851-67d6-4e6a-bee3-4530b7def2d5-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676477797994' status='passed' stop='1676477798004'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='002538ba-b199-4abb-b924-82b4245e8849-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='6c7e5126-9efd-4160-b3cd-7116c6871d5e-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect  to be existing</message>
+                <stack-trace>Error: Expect  to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at World.&lt;anonymous> (file:///Users/gshahin/Documents/II/webdriverio-cucumber-aplan-test/features/step-definitions/steps.js:17:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676477808044' status='pending' stop='1676477808045'>
+            <name>Then I should verify the Get quote and Find more buttons</name>
+            <title>Then I should verify the Get quote and Find more buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477808045' status='passed' stop='1676477808047'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

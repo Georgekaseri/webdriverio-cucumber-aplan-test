@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676477720114' stop='1676477721159'>
+    <name>The Aplan Website: As a user, I can log into the secure area</name>
+    <title>The Aplan Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1676477720114' status='passed' stop='1676477720114'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477720114' status='passed' stop='1676477721118'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676477720115' status='passed' stop='1676477721117'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='89ad1b36-4bc0-4401-8839-b3b9d3c84319-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477721118' status='passed' stop='1676477721158'>
+            <name>When I land to the page</name>
+            <title>When I land to the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676477721120' status='passed' stop='1676477721136'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c6dc7dc3-7f90-4a8b-af76-84f95a0cf218-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='d8558d29-9c04-47af-84ac-814b8cce50f7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676477721140' status='passed' stop='1676477721155'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e4865a1e-666e-4898-ae25-104e3ddc05cf-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='f27c95a0-a8cd-42b2-84dd-9d567c557267-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477721158' status='broken' stop='1676477721158'>
+            <name>Then I should see Personal link</name>
+            <title>Then I should see Personal link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see Personal link" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see Personal link" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/gshahin/Documents/II/webdriverio-cucumber-aplan-test/features/home.feature):1:1
+                	at Scenario(As a user, I can log into the secure area):3:3
+                	at Step(I should see Personal link):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676477721158' status='pending' stop='1676477721158'>
+            <name>Then I should verify the Get quote and Find more buttons</name>
+            <title>Then I should verify the Get quote and Find more buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676477721158' status='passed' stop='1676477721158'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

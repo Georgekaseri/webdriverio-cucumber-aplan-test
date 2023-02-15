@@ -14,3 +14,8 @@ Then("I should see Personal link", async () => {
   await expect(HomePage.getAplanLogo).toBeExisting();
   await expect(HomePage.getPersonalLink).toHaveTextContaining("Personal");
 });
+
+Then("I should verify the Get quote and Find more buttons", async () => {
+  await expect(HomePage.getGetQuote).toHaveTextContaining("Get a quote");
+  await expect(HomePage.getFindMore).toHaveTextContaining("Find out more");
+});

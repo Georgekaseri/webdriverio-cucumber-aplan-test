@@ -1,0 +1,163 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676476576620' stop='1676476577685'>
+    <name>The Aplan Website: As a user, I can log into the secure area</name>
+    <title>The Aplan Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1676476576620' status='passed' stop='1676476576621'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676476576621' status='passed' stop='1676476577589'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676476576622' status='passed' stop='1676476577588'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f2025340-017c-4e05-8a6a-f1b9c0418f84-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676476577589' status='passed' stop='1676476577622'>
+            <name>When I land to the page</name>
+            <title>When I land to the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676476577591' status='passed' stop='1676476577603'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f0d3de2d-430c-412f-bb45-98c64e4c9bec-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='ecfc6ba1-5442-45c4-bdf0-9a1aadae4be8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676476577607' status='passed' stop='1676476577619'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d9eec24c-d65d-427b-a25d-c90d7231214e-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='41d16794-fa91-47cd-9934-4aa25f32c072-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676476577622' status='passed' stop='1676476577684'>
+            <name>Then I should see Personal link</name>
+            <title>Then I should see Personal link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676476577623' status='passed' stop='1676476577632'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='db490b17-81a9-4600-9564-84307bbaeb84-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='ba993501-1647-426a-8888-a881025e1d9e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676476577634' status='passed' stop='1676476577643'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d7ff2898-6c29-48dc-92db-6ce7bb54773a-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='7af882db-474c-4979-a299-98df823154cd-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676476577644' status='passed' stop='1676476577662'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c98f865a-960f-444c-a726-c77aec8e5bb3-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='bfb73037-d367-43fb-827b-ac4eb9cc1c64-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676476577664' status='passed' stop='1676476577684'>
+                    <name>GET /session/:sessionId/element/f1836f01-edf2-4960-961a-62bf54b6197e/text</name>
+                    <title>GET /session/:sessionId/element/f1836f01-edf2-4960-961a-62bf54b6197e/text</title>
+                    <attachments>
+                        <attachment title='Response' source='04d6c4cb-d0a5-40d9-b183-5f4781a826ba-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676476577684' status='broken' stop='1676476577684'>
+            <name>Then button should display with name Get a quote</name>
+            <title>Then button should display with name Get a quote</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "button should display with name Get a quote" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "button should display with name Get a quote" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/gshahin/Documents/II/webdriverio-cucumber-aplan-test/features/home.feature):1:1
+                	at Scenario(As a user, I can log into the secure area):3:3
+                	at Step(button should display with name &lt;button>):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676476577684' status='passed' stop='1676476577685'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

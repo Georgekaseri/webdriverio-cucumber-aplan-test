@@ -5,3 +5,4 @@ Feature: The Aplan Website
     Given I am on the login page
     When I land to the page
     Then I should see Personal link
+    Then I should verify the Get quote and Find more buttons
