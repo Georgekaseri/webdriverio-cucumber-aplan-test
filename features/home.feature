@@ -1,11 +1,13 @@
 Feature: The Aplan Website
 
-  Scenario Outline: As a user, I can log into the secure area
+  Scenario Outline: As a user, I can launch into the Aplan Website
 
     Given I am on the login page
     When I land to the page
     Then I should see Personal link
     Then I should verify the Get quote and Find more buttons
+
+Scenario Outline: As a user, I can verify the navigation header
 
     When I click on Motor submenu
     Then I should see Car insurance
