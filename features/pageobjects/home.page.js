@@ -43,5 +43,22 @@ class HomePage {
     const ele = $("//h2[contains(text(),'Find your branch')]");
     return await ele.getText();
   }
+  get getInsuranceLink() {
+    return $("//*[@class='fa fa-lock']");
+  }
+
+  async clickInsuranceLink() {
+    const ele = $(".fa fa-hospital-o");
+    return await ele.click();
+  }
+
+  async clickLifeHealth(index) {
+    const el = $$(".fa fa-angle-down")[index];
+    let clickable = await el.isClickable();
+
+    // wait for element to be clickable
+    await browser.waitUntil(() => el.isClickable());
+    return await el.click();
+  }
 }
 export default new HomePage();

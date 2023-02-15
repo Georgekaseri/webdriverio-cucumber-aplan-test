@@ -20,3 +20,10 @@ Scenario Outline: As a user, I can verify the Home & contents header
     Then I should see Home insurance
     Then I should click on Home insurance link
     Then I should verify that I've landed to the right destination url
+
+Scenario Outline: As a user, I can verify the Life & Health header
+
+    When I click on Life & Health submenu
+    Then I should see Life insurance
+    Then I should click on Life insurance link
+    Then I should verify that I've landed to the Life insurance url
