@@ -1,5 +1,3 @@
-//import { $$ } from "webdriverio/build/commands/browser";
-
 class HomePage {
   // define selectors using getter methods
 
@@ -21,6 +19,15 @@ class HomePage {
 
   get getFindMore() {
     return $$("//*[text()='Find out more']")[0];
+  }
+
+  get getCarLink() {
+    return $$("//i[@class='fa fa-car']")[2];
+  }
+
+  async clickOnCarLink(index) {
+    const ele = $$(".fa fa-car")[index];
+    return await ele.click;
   }
 }
 export default new HomePage();

@@ -8,6 +8,7 @@
     "@wdio/local-runner": "^8.3.8",
     "@wdio/selenium-standalone-service": "^8.3.2",
     "@wdio/spec-reporter": "^8.3.0",
+    "chai": "^4.3.7",
     "rimraf": "^4.1.2"
   },
   "scripts": {
@@ -15,8 +16,5 @@
     "test": "rimraf allure-results && rimraf allure-report && wdio run ./wdio.conf.js",
     "generate:report": "allure generate allure-results/ && allure open",
     "wdio": "wdio run ./wdio.conf.js"
-  },
-  "dependencies": {
-    "chai": "^4.3.7"
   }
 }
