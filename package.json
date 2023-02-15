@@ -10,6 +10,10 @@
     "@wdio/spec-reporter": "^8.3.0"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "test": "wdio run ./wdio.conf.js",
+    "generate:report": "allure generate allure-results/ && allure open"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
   }
 }
