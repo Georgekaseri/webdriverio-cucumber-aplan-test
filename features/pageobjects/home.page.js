@@ -30,6 +30,15 @@ class HomePage {
     return await ele.click;
   }
 
+  async clickOnHomeLink(index) {
+    const ele = $$(".fa fa-home")[index];
+    return await ele.click;
+  }
+
+  get getHomeLink() {
+    return $$("//i[@class='fa fa-home']")[2];
+  }
+
   async getHeaderText() {
     const ele = $("//h2[contains(text(),'Find your branch')]");
     return await ele.getText();

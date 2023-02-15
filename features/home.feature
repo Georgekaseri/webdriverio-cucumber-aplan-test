@@ -7,9 +7,16 @@ Feature: The Aplan Website
     Then I should see Personal link
     Then I should verify the Get quote and Find more buttons
 
-Scenario Outline: As a user, I can verify the navigation header
+Scenario Outline: As a user, I can verify the Motor header
 
     When I click on Motor submenu
     Then I should see Car insurance
     Then I should click on Car insurance link
     Then I should verify that I've landed to the right url
+
+Scenario Outline: As a user, I can verify the Home & contents header
+
+    When I click on Home & contents submenu
+    Then I should see Home insurance
+    Then I should click on Home insurance link
+    Then I should verify that I've landed to the right destination url
