@@ -1,0 +1,183 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676551196745' stop='1676551197230'>
+    <name>The Aplan Website: As a user, I can verify the Marine header</name>
+    <title>The Aplan Website: As a user, I can verify the Marine header</title>
+    <test-cases>
+        <test-case start='1676551196745' status='passed' stop='1676551196745'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676551196745' status='passed' stop='1676551197194'>
+            <name>When I click on Marine submenu</name>
+            <title>When I click on Marine submenu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676551196745' status='passed' stop='1676551196748'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='40fcb52f-d533-4c09-b188-e6fe19f4b9d5-attachment.json' type='application/json' size='39'/>
+                        <attachment title='Response' source='cc3d0cd0-afca-4394-a860-14875905e689-attachment.json' type='application/json' size='1615'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676551196749' status='passed' stop='1676551197169'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c75ba845-560e-4a21-9afe-f8e0e71646c6-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676551197169' status='passed' stop='1676551197174'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='5810729d-58e7-4499-bb7c-6936bc998468-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676551197175' status='passed' stop='1676551197182'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='04cd3dc6-cdbf-4766-82e8-7c7b544a22f6-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='f76cad59-7915-4351-9a20-190d3d45e483-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676551197183' status='passed' stop='1676551197193'>
+                    <name>GET /session/:sessionId/element/83bd9b74-de2c-4d4a-953a-c42c06b6f648/text</name>
+                    <title>GET /session/:sessionId/element/83bd9b74-de2c-4d4a-953a-c42c06b6f648/text</title>
+                    <attachments>
+                        <attachment title='Response' source='07b5d7ef-b358-4255-8f80-5d8655501b1c-attachment.json' type='application/json' size='18'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676551197193' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c0d8f3b4-43e4-4a63-b153-8da225e58cf3-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='66425277-8d16-4c80-aa16-59581894a5b8-attachment.json' type='application/json' size='57'/>
+            </attachments>
+        </test-case>
+        <test-case start='1676551197194' status='passed' stop='1676551197221'>
+            <name>Then I should see Private and pleasure marine insurance insurance</name>
+            <title>Then I should see Private and pleasure marine insurance insurance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676551197194' status='passed' stop='1676551197202'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='baf6fbe2-dfdc-4d36-b8ca-e117602ad392-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='565d589e-ff81-4a15-84be-4534d68eeba4-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676551197208' status='passed' stop='1676551197217'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d21c3af6-d962-4025-b9b5-203d24fe9f37-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='c525e5a3-66fa-494b-9943-6e19899f63b4-attachment.json' type='application/json' size='457'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='e9b2c8bb-9cf7-4894-91f8-db920c0d9c73-attachment.json' type='application/json' size='457'/>
+            </attachments>
+        </test-case>
+        <test-case start='1676551197221' status='passed' stop='1676551197222'>
+            <name>Then I should click on Private and pleasure marine insurance link</name>
+            <title>Then I should click on Private and pleasure marine insurance link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676551197221' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e0302082-1173-459b-b9fe-044974b650d1-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676551197222' status='passed' stop='1676551197230'>
+            <name>Then I should verify that I've landed to the marine insurance url</name>
+            <title>Then I should verify that I've landed to the marine insurance url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps>
+                <step start='1676551197222' status='passed' stop='1676551197230'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='ac7c7496-4b7b-4d0b-8fd4-ed6fdb1b19d2-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676551197230' status='passed' stop='1676551197230'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

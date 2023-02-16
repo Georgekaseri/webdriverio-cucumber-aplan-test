@@ -4,6 +4,7 @@ import { Given, When, Then } from "@wdio/cucumber-framework";
 
 When("I click on Motor submenu", async () => {
   await browser.url("https://www.aplan.co.uk");
+  await browser.maximizeWindow();
   await browser.waitUntil(
     async () =>
       (await $("//h2[contains(text(),'Find your branch')]").getText()) ===
@@ -14,8 +15,8 @@ When("I click on Motor submenu", async () => {
       timeoutMsg: "expected text to be different after 5s",
     }
   );
+
   HomePage.clickOnCarLink(0);
-  browser.pause(90000);
 });
 Then("I should see Car insurance", async () => {
   await expect(HomePage.getCarLink).toBeExisting();

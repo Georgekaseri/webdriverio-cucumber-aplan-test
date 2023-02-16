@@ -60,5 +60,24 @@ class HomePage {
     await browser.waitUntil(() => el.isClickable());
     return await el.click();
   }
+
+  get getMarineInsurance() {
+    return $$(".fa fa-anchor")[2];
+  }
+
+  async MarineLink(index) {
+    const el = $$(".fa fa-anchor")[index];
+    let clickable = await el.isClickable();
+
+    // wait for element to be clickable
+    await browser.waitUntil(() => el.isClickable());
+    return await el.click();
+  }
+
+  async marineLinkq() {
+    await (
+      await $("//a[@title='Private and pleasure marine insurance']")
+    ).click();
+  }
 }
 export default new HomePage();

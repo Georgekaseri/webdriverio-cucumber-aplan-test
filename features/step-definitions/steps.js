@@ -4,6 +4,7 @@ import { Given, When, Then } from "@wdio/cucumber-framework";
 
 Given("I am on the login page", async () => {
   await browser.url("https://www.aplan.co.uk");
+  await browser.maximizeWindow();
   await (await $("#onetrust-accept-btn-handler")).click();
 });
 

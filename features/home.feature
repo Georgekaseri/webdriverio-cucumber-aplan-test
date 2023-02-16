@@ -27,3 +27,10 @@ Scenario Outline: As a user, I can verify the Life & Health header
     Then I should see Life insurance
     Then I should click on Life insurance link
     Then I should verify that I've landed to the Life insurance url
+
+ Scenario Outline: As a user, I can verify the Marine header
+
+   When I click on Marine submenu
+   Then I should see Private and pleasure marine insurance insurance
+   Then I should click on Private and pleasure marine insurance link
+   Then I should verify that I've landed to the marine insurance url
